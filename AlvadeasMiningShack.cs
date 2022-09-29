@@ -2,8 +2,6 @@
 using StardewModdingAPI;
 using StardewValley;
 using HarmonyLib;
-using xTile.Tiles;
-using xTile.Layers;
 using StardewValley.Network;
 
 namespace AlvadeasMiningShack

@@ -1,6 +1,6 @@
 ﻿{
-	"miningshack.question": "Oh. This shack doesn't seem to be in a too bad state. I guess, I'm able to repair it with 100 wood floors, 200 stone and 25 copper bars.",
-	"miningshack.notEnough": "I lack the necessary materials...",
+	"miningshack.question": "Oh. This shack doesn't seem to be in a too bad state. It can be repaired with 100 wood floors, 200 stone and 25 copper bars.",
+	"miningshack.notEnough": "Not enough materials...",
 	"miningshack.leave": "Not right now.",
-	"miningshack.repair": "I want to repair the building!"
+	"miningshack.repair": "Repair the building!"
 }
