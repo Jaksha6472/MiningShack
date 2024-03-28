@@ -5,6 +5,7 @@ using StardewValley.Network;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using xTile.Dimensions;
 using xTile.Layers;
 using xTile.Tiles;
@@ -165,6 +166,8 @@ namespace AlvadeasMiningShack
             try
             {
                 // This should only be doable on the mining farm
+                //if (Game1.whichModFarm.MapName != "Goldrush")
+                //    return true;
                 if (Game1.whichFarm != 3)
                     return true;
 
@@ -237,7 +240,7 @@ namespace AlvadeasMiningShack
             foreach (Item item in inventory)
             {
                 if (item == null)
-                    return false;
+                    continue;
 
                 int key = item.ParentSheetIndex;
                 int amount = item.Stack;
@@ -254,7 +257,7 @@ namespace AlvadeasMiningShack
             foreach (Item item in inventory)
             {
                 if (item == null)
-                    return false;
+                    continue;
 
                 int key = item.ParentSheetIndex;
 
